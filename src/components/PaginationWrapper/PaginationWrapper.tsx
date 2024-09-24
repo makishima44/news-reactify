@@ -12,6 +12,7 @@ const PaginationWrapper = ({
   top,
   bottom,
   children,
+
   ...paginationProps
 }: Props & IPaginationProps) => {
   return (
