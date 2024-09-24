@@ -52,6 +52,7 @@ const NewsByFilters = () => {
         handlePageClick={handlePageClick}
         totalPages={TOTAL_PAGES}
         currentPage={filters.page_number}
+       
       >
         <NewsList isLoading={isLoading} news={data?.news} />
       </PaginationWrapper>
